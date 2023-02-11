@@ -5,8 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COHORT 97 - DODGE GAME</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./scripts/index.js" defer></script>
+  <script src="./scripts/controls.js" defer></script>
 </head>
 <body>
-  Olá mundo!
+  <div id="container">
+    <div id="start-screen">
+      <h1>Dodge Game</h1>
+      <button>Start!</button>
+    </div>
+    <div id="game-screen" class="hidden">
+      <span id="score">0</span>
+      <div id="game-over" class="hidden">
+        <p>Game Over</p>
+        <p>Your score is: <span>0</span>!</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
